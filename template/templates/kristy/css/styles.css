@@ -1,0 +1,4 @@
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+.clear, .clr { clear: both; }

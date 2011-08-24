@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Gallery" option="option">
+		<message>
+			<![CDATA[View a folder of images]]>
+		</message>
+	</layout>
+	
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="folder" type="folderlist" label="Folder" directory="images/galleries" hide_none="1" hide_default="1" />
+			<field name="columns" type="text" label="Number of Columns" default="5" />
+			<field name="row_space" type="text" label="Row Spacing" default="49" />
+			<field name="col_space" type="text" label="Column Spacing" default="15"/>
+		</fieldset>
+	</fields>
+</metadata>

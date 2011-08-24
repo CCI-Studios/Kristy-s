@@ -1,0 +1,39 @@
+#wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+}
+
+#top {
+	margin: 30px 0 20px;
+	line-height: 1em;
+	position: relative;
+}
+
+#body {
+	background: black;
+	border: 1px solid white;
+	padding: 25px 30px;
+}
+body.home #body { padding: 0; }
+body.home #body img { display: block; }
+
+#title {
+	margin-bottom: 1em;
+}
+
+#sidebar {
+	float: left;
+	margin-right: 30px;
+	width: 150px;
+}
+
+#component {
+	float: left;
+	width: 878px;
+}
+#component.narrow { width: 698px; }
+
+#footer {
+	padding-bottom: 20px;
+}

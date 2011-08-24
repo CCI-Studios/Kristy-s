@@ -1,0 +1,33 @@
+body {
+	background: black url(../images/body-bg.png) top no-repeat;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	line-height: 2.5em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover { color: #666; }
+a:visited { color: white; }
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1em;
+	margin: 0.5em 0 0.7em;
+}
+
+h1 {
+	margin: 0;
+}
+h2 {
+	font-size: 12px;
+}
+h3, h4, h5, h6 {
+	font-size: 11px;
+}
+
+p {
+	margin: 1em 0 1.5em;
+}

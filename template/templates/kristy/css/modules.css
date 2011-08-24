@@ -1,0 +1,26 @@
+.moduletable.social {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+
+.moduletable_menu {
+	bottom: 0;
+	position: absolute;
+	right: 86px;
+}
+
+.moduletable_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.moduletable_menu li {
+	display: inline-block;
+	*display: inline;
+	font-size: 14px;
+	padding: 0 0 0 66px;
+	zoom: 0;
+}
+.moduletable_menu li:first:child { padding-left: 0; }
