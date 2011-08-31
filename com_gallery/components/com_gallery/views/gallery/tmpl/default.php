@@ -1,6 +1,6 @@
 <?= @helper('behavior.mootools'); ?>
 <style src="media://com_gallery/site.css" />
-<script src="media://com_gallery/gallery.js" />
+<script src="media://com_gallery/lightbox.js" />
 
 <ul class="images">
 	<? foreach ($images as $i=>$image):	?>
@@ -12,7 +12,7 @@
 <?= ($i >= $columns)? "padding-top: {$row_space}px;":'' ?>
 "
 	>
-		<img src="<?= $folder .'/'. $image ?>" />
+		<a href="<?= $folder .'/'. $image ?>" rel="lightbox"><img src="<?= $folder .'/'. $image ?>" /></a>
 	</li>
 	<? endforeach; ?>
 </ul>
