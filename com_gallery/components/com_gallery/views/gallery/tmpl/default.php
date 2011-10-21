@@ -12,7 +12,7 @@
 <?= ($i >= $columns)? "padding-top: {$row_space}px;":'' ?>
 "
 	>
-		<a href="<?= $folder .'/'. $image ?>" rel="lightbox"><img src="<?= $folder .'/'. $image ?>" /></a>
+		<a href="<?= $folder .'/full/'. $image ?>" rel="lightbox"><img src="<?= $folder .'/'. $image ?>" /></a>
 	</li>
 	<? endforeach; ?>
 </ul>
